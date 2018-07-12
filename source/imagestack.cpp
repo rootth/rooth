@@ -243,7 +243,7 @@ void morph(ImageStack& stack)
 		statusIndex = 4;
 		SendMessage(hCtrlDlg, WM_INITDIALOG, 0, 0);
 
-		//Eroion
+		//Erosion
 		for(unsigned d=OP_CL_SIZE; d<stack.depth-OP_CL_SIZE; d++)
 		{
 			for(unsigned h=OP_CL_SIZE; h<stack.height-OP_CL_SIZE; h++)
