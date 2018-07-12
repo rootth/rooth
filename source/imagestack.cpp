@@ -283,7 +283,7 @@ void morph(ImageStack& stack)
 
 		//Closing
 
-		//Eroion
+		//Erosion
 		/*for(unsigned d=OP_CL_SIZE; d<stack.depth-OP_CL_SIZE; d++)
 			for(unsigned h=OP_CL_SIZE; h<stack.height-OP_CL_SIZE; h++)
 				for(unsigned w=OP_CL_SIZE; w<stack.width-OP_CL_SIZE; w++)
